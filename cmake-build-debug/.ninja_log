@@ -1,0 +1,9 @@
+# ninja log v5
+31	385	6698392255847485	CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/main.c.obj	9e152166cc389fd6
+0	406	6698392256047655	CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/customSort.c.obj	fd2bcd27a21a2af2
+35	470	6698392256678229	CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/utils.c.obj	62bc70f6b6470640
+56	471	6698392256708263	CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/tranzactie.c.obj	d657fdaa1422a194
+26	480	6698392256718276	CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/lista.c.obj	a084bf3aafad26b7
+52	521	6698392257208707	CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/ui.c.obj	ff0fe4c6466a4d7d
+28	557	6698392257569034	CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/service.c.obj	a9c8f51ab8dd21ff
+563	1088	6698392262842994	laborator5__memory_leaks_Andra.exe	dbb0083e2fb654fc
