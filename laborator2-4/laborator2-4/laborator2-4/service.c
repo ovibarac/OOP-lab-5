@@ -97,6 +97,24 @@ MyList* filterTranzactiitip(TranzactiiStore* store, char* tip) {
 
 }
 
+MyList* filterTranzactiiZi(TranzactiiStore* store, int zi) {
+    if (zi>0 && zi < 32)
+    {
+        MyList* filteredList = createEmpty(destroyTranzactie);
+        for (int i = 0; i < store->allTranzactii->length; i++) {
+            Tranzactie* t = get(store->allTranzactii, i);
+            if (zi == t->ziua)
+                add(filteredList, createTranzactie(t->ziua, t->suma, t->tip, t->descriere));
+        }
+        return filteredList;
+    }
+    else {
+        return copyList(store->allTranzactii, copyTranzactie);
+    }
+
+
+}
+
 MyList* filterTranzactiiSumaMaiMare(TranzactiiStore* store, float suma) {
 	if (suma > 0)
 	{

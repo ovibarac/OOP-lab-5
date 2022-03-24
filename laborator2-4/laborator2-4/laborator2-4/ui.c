@@ -7,6 +7,16 @@
 #include "service.h"
 #include "utils.h"
 
+void generate(TranzactiiStore* v){
+    addTranzactie(v, "intrare", "abc", 1, 12);
+    addTranzactie(v, "intrare", "Mancare", 4, 10);
+    addTranzactie(v, "intrare", "Taxe", 6, 2);
+    addTranzactie(v, "iesire", "Impozit", 3, 45);
+    addTranzactie(v, "iesire", "Transfer", 1, 13);
+    addTranzactie(v, "iesire", "abc", 1, 13);
+    addTranzactie(v, "intrare", "abc", 1, 54);
+}
+
 void testAll() {
 	testCreateDestroy();
 	testValideaza();
@@ -128,6 +138,7 @@ void uiDelete(TranzactiiStore* v) {
 void uiFilter(TranzactiiStore* v) {
 	printf("1. Filtrare dupa tip\n");
 	printf("2. filtrare dupa suma\n");
+	printf("3. filtrare dupa zi\n");
 	int cmd;
 	printf("Introduceti numarul comenzii: ");
 	scanf_s("%d", &cmd);
@@ -174,6 +185,20 @@ void uiFilter(TranzactiiStore* v) {
 		if (suma == 0)
 			printf("date invalide");
 	}
+    if (cmd == 3)
+    {
+        int zi;
+        printf("Itroduceti ziua: ");
+        scanf_s("%d", &zi);
+        if (zi !=0)
+        {
+            MyList* filteredList = filterTranzactiiZi(v, zi);
+            printTranzactii(filteredList);
+            destroyList(filteredList);
+        }
+        if (zi  < 1 || zi > 31)
+            printf("date invalide");
+    }
 
 }
 
@@ -196,6 +221,7 @@ void uiSortByZiua(TranzactiiStore* store) {
 void run() {
 	TranzactiiStore List = createTranzactiiStore();
 	int running = 1;
+    generate(&List);
 	while (running) {
 		printMenu();
 		int cmd;
