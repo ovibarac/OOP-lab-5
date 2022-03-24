@@ -13,6 +13,8 @@ typedef struct {
 	DestroyFct dfnc;
 } MyList;
 
+ElemType removeLast(MyList* l);
+
 MyList* createEmpty(DestroyFct f);
 
 void destroyList(MyList* v);

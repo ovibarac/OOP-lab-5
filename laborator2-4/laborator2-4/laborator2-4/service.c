@@ -17,8 +17,19 @@ void destroyTranzactiiStore(TranzactiiStore* store) {
 	destroyList(store->undoList);
 }
 
+int undo(TranzactiiStore* store){
+    if(size(store->undoList)==0){
+        return 1;
+    }
+    MyList* l = removeLast(store->undoList);
+    destroyList(store->allTranzactii);
+    store->allTranzactii = l;
+    return 0;
+}
+
 int addTranzactie(TranzactiiStore* store, char* tip, char* descriere, int zi, double suma) {
 	Tranzactie* t = createTranzactie(zi, suma, tip, descriere);
+    MyList* toUndo = copyList(store->allTranzactii, copyTranzactie);
 	int successful = valideazaTranzactie(t);
 	if (!successful)
 	{
@@ -26,6 +37,7 @@ int addTranzactie(TranzactiiStore* store, char* tip, char* descriere, int zi, do
 		return 0;
 	}
 	add(store->allTranzactii, t);
+	add(store->undoList, toUndo);
 	return 1;
 }
 
@@ -43,8 +55,10 @@ int findTranzactie(TranzactiiStore* store, char* tip, int zi, double suma) {
 int deleteTranzactie(TranzactiiStore* store, char* tip, char* descriere, int ziua, double suma) {
 	int poz_to_delete = findTranzactie(store, tip, ziua, suma);
 	if (poz_to_delete != -1) {
-		Tranzactie* t = delete(store->allTranzactii, poz_to_delete);
+        MyList* toUndo = copyList(store->allTranzactii, copyTranzactie);
+        Tranzactie* t = delete(store->allTranzactii, poz_to_delete);
 		destroyTranzactie(t);
+        add(store->undoList, toUndo);
 		return 1;
 	}
 	else
@@ -55,9 +69,10 @@ int modifyTranzactie(TranzactiiStore* store, int ziua, double suma, char* tip, c
 
 	if (poz_to_delete != -1) {
 		Tranzactie* T_Noua = createTranzactie(ziua, suma, tip, descriere);
+        MyList* toUndo = copyList(store->allTranzactii, copyTranzactie);
 		Tranzactie* t = setElem(store->allTranzactii, poz_to_delete, T_Noua);
 		destroyTranzactie(t);
-		
+        add(store->undoList, toUndo);
 		return 1;
 	}
 	else

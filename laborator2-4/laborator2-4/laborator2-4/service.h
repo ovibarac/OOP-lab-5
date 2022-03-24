@@ -12,6 +12,8 @@ void destroyTranzactiiStore(TranzactiiStore* store);
 
 int addTranzactie(TranzactiiStore* store, char* tip, char* descriere, int zi, double suma);
 
+int undo(TranzactiiStore* store);
+
 int findTranzactie(TranzactiiStore* store, char* tip, int zi, double suma);
 
 int deleteTranzactie(TranzactiiStore* store, char* tip, char* descriere, int ziua, double suma);

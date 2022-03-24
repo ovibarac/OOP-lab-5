@@ -44,6 +44,7 @@ void printMenu() {
 	printf("5. Filarare lista\n");
 	printf("6. Sortare tranzactii dupa suma\n");
 	printf("7. Sortare tranzactii dupa zi\n");
+	printf("8. Undo\n");
 	printf("0. Iesire\n");
 }
 
@@ -223,6 +224,12 @@ void run() {
 		case 7:
 			uiSortByZiua(&List);
 			break;
+        case 8:
+            if (undo(&List) != 0) {
+                printf("No more undo!!!\n");
+            }
+            break;
+
 		case 0:
 			running = 0;
 			destroyTranzactiiStore(&List);

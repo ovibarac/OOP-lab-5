@@ -61,6 +61,16 @@ ElemType delete(MyList* v, int poz) {
 	return el;
 }
 
+/*
+Remove last element from the list
+!!!! do not destroy removed element
+return the removed element
+*/
+ElemType removeLast(MyList* l) {
+    ElemType rez = l->elems[l->length - 1];
+    l->length -= 1;
+    return rez;
+}
 
 MyList* copyList(MyList* v, CopyFct copyFct) {
 	MyList* v_copy = createEmpty(v->dfnc);
