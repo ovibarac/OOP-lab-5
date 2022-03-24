@@ -50,3 +50,5 @@ void testSortareSuma();
 
 void testSortareZiua();
 
+void testUndo();
+

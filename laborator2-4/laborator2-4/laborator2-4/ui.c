@@ -31,6 +31,7 @@ void testAll() {
 	testCopyTranzactie();
 	testSortareSuma();
 	testSortareZiua();
+    testUndo();
 }
 
 void printTranzactii(MyList* v) {

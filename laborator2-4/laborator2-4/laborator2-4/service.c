@@ -295,6 +295,17 @@ void testFilterService() {
 	assert(size(filteredList) == 0);
 	destroyList(filteredList);
 
+    filteredList = filterTranzactiiZi(&v, 5);
+    assert(size(filteredList) == 2);
+    destroyList(filteredList);
+
+    filteredList = filterTranzactiiZi(&v, 6);
+    assert(size(filteredList) == 1);
+    destroyList(filteredList);
+
+    filteredList = filterTranzactiiZi(&v, 1);
+    assert(size(filteredList) == 0);
+    destroyList(filteredList);
 
 	destroyTranzactiiStore(&v);
 
@@ -350,4 +361,25 @@ void testSortareZiua()
 
 	destroyList(sortedList);
 	destroyTranzactiiStore(&v);
+}
+
+void testUndo() {
+    TranzactiiStore store = createTranzactiiStore();
+    addTranzactie(&store, "intrare", "a", 1, 2);
+    addTranzactie(&store, "intrare", "b", 2, 3);
+    undo(&store);
+    MyList* l =  copyList(store.allTranzactii,copyTranzactie);
+    assert(size(l) == 1);
+    destroyList(l);
+
+    undo(&store);
+    l =  copyList(store.allTranzactii,copyTranzactie);
+    assert(size(l) == 0);
+    destroyList(l);
+
+    assert(undo(&store) != 0);
+    assert(undo(&store) != 0);
+    assert(undo(&store) != 0);
+
+    destroyTranzactiiStore(&store);
 }
