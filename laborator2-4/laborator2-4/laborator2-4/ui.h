@@ -19,5 +19,7 @@ void uiSortBySuma(TranzactiiStore* store);
 
 void uiSortByZiua(TranzactiiStore* store);
 
+void uiSoldZi(TranzactiiStore* store);
+
 void run();
 

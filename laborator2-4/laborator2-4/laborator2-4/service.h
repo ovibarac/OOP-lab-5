@@ -30,6 +30,8 @@ void testDeleteService();
 
 MyList* filterTranzactiitip(TranzactiiStore* store, char* tip);
 
+MyList* filterTranzactiiZi(TranzactiiStore* store, int zi);
+
 MyList* filterTranzactiiSumaMaiMare(TranzactiiStore* v, float suma);
 
 MyList* filterTranzactiiSumaMaiMica(TranzactiiStore* v, float suma);

@@ -1,7 +1,5 @@
 #pragma once
-#define _CRTDBG_MAP_ALLOC
 #include <stdlib.h>
-#include <crtdbg.h>
 #include <stdio.h>
 #include <string.h>
 #include "service.h"
@@ -54,10 +52,10 @@ void uiAdd(TranzactiiStore* v) {
 	float suma;
 	char temp;
 	printf("Ziua: ");
-	scanf_s("%d", &ziua);
+	scanf("%d", &ziua);
 	printf("Suma: ");
-	scanf_s("%f", &suma);
-	scanf_s("%c", &temp, 1);
+	scanf("%f", &suma);
+	scanf("%c", &temp, 1);
 	printf("Tipul: ");
 	fgets(tip, 10, stdin);
 	printf("Descriere: ");
@@ -81,10 +79,10 @@ void uiModify(TranzactiiStore* v) {
 	float suma;
 	char temp;
 	printf("Ziua:");
-	scanf_s("%d", &ziua);
+	scanf("%d", &ziua);
 	printf("Suma:");
-	scanf_s("%f", &suma);
-	scanf_s("%c", &temp, 1);
+	scanf("%f", &suma);
+	scanf("%c", &temp, 1);
 	printf("Tipul:");
 	fgets(tip, 10, stdin);
 	printf("Descriere:");
@@ -106,11 +104,11 @@ void uiDelete(TranzactiiStore* v) {
 	float suma;
 	char temp;
 	printf("ziua:");
-	scanf_s("%d", &ziua);
+	scanf("%d", &ziua);
 	printf("Suma:");
-	scanf_s("%f", &suma);
+	scanf("%f", &suma);
 	printf("Tipul:");
-	scanf_s("%c", &temp, 1);
+	scanf("%c", &temp, 1);
 	fgets(tip, 10, stdin);
 	printf("Descriere:");
 	fgets(descriere, 100, stdin);
@@ -130,12 +128,12 @@ void uiFilter(TranzactiiStore* v) {
 	printf("2. filtrare dupa suma\n");
 	int cmd;
 	printf("Introduceti numarul comenzii: ");
-	scanf_s("%d", &cmd);
+	scanf("%d", &cmd);
 	if (cmd == 1)
 	{
 		char tip[10];
 		char temp;
-		scanf_s("%c", &temp, 1);
+		scanf("%c", &temp, 1);
 		printf("Tipul tranzactiei este:");
 		fgets(tip, 10, stdin);
 		trimTrailing(tip);
@@ -155,10 +153,10 @@ void uiFilter(TranzactiiStore* v) {
 		printf("2. suma mai mare\n");
 		printf("Introduceti numarul comenzii: ");
 		int cmds;
-		scanf_s("%d", &cmds);
+		scanf("%d", &cmds);
 		float suma;
 		printf("Itroduceti suma: ");
-		scanf_s("%f", &suma);
+		scanf("%f", &suma);
 		if (cmds == 1 && suma !=0)
 		{
 			MyList* filteredList = filterTranzactiiSumaMaiMica(v, suma);
@@ -174,15 +172,27 @@ void uiFilter(TranzactiiStore* v) {
 		if (suma == 0)
 			printf("date invalide");
 	}
+    if (cmd == 3)
+    {
+
+        int zi;
+        printf("Itroduceti ziua: ");
+        scanf("%f", &zi);
+        if (zi>0 && zi < 32)
+        {
+            MyList* filteredList = filterTranzactiiZi(v, zi);
+            printTranzactii(filteredList);
+            destroyList(filteredList);
+        }else
+            printf("date invalide");
+    }
 
 }
 
 void uiSortBySuma(TranzactiiStore* store) {
-
 	MyList* sortedList = sortTranzactiiBySuma(store);
 	printTranzactii(sortedList);
 	destroyList(sortedList);
-
 }
 
 void uiSortByZiua(TranzactiiStore* store) {
@@ -193,6 +203,33 @@ void uiSortByZiua(TranzactiiStore* store) {
 
 }
 
+void uiSoldZi(TranzactiiStore* v) {
+
+    int zi;
+    printf("Itroduceti ziua: ");
+    scanf("%f", &zi);
+    if (zi>0 && zi < 32)
+    {
+        MyList* filteredList = filterTranzactiiSumaMaiMica(v, zi);
+
+        TranzactiiStore ziStore = createTranzactiiStore();
+        ziStore.allTranzactii = filteredList; //creez un store cu tranzactiile din ziua data
+
+        MyList* filteredListTip = filterTranzactiitip(v, "intrare");
+        printf("intrare: \n");
+        printTranzactii(filteredListTip);
+
+        filteredListTip = filterTranzactiitip(v, "iesire");
+        printf("iesire: \n");
+        printTranzactii(filteredListTip);
+
+
+        printTranzactii(filteredList);
+        destroyList(filteredList);
+    }else
+        printf("date invalide");
+}
+
 void run() {
 	TranzactiiStore List = createTranzactiiStore();
 	int running = 1;
@@ -200,7 +237,7 @@ void run() {
 		printMenu();
 		int cmd;
 		printf("Comanda este:");
-		scanf_s("%d", &cmd);
+		scanf("%d", &cmd);
 		switch (cmd) {
 		case 1:
 			uiAdd(&List);
@@ -229,7 +266,9 @@ void run() {
                 printf("No more undo!!!\n");
             }
             break;
-
+        case 9:
+            uiSoldZi(&List);
+            break;
 		case 0:
 			running = 0;
 			destroyTranzactiiStore(&List);
