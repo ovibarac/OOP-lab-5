@@ -207,10 +207,10 @@ void uiSoldZi(TranzactiiStore* v) {
 
     int zi;
     printf("Itroduceti ziua: ");
-    scanf("%f", &zi);
+    scanf("%d", &zi);
     if (zi>0 && zi < 32)
     {
-        MyList* filteredList = filterTranzactiiSumaMaiMica(v, zi);
+        MyList* filteredList = filterTranzactiiZi(v, zi);
 
         TranzactiiStore ziStore = createTranzactiiStore();
         ziStore.allTranzactii = filteredList; //creez un store cu tranzactiile din ziua data
@@ -226,6 +226,8 @@ void uiSoldZi(TranzactiiStore* v) {
 
         printTranzactii(filteredList);
         destroyList(filteredList);
+        destroyList(filteredListTip);
+        destroyTranzactiiStore(&ziStore);
     }else
         printf("date invalide");
 }
