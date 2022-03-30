@@ -2,7 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
-#define _CRT_SECURE_NO_WARNINGS
 
 Tranzactie* createTranzactie(int ziua, double suma, char* tipul, char* descriere) {
 	Tranzactie* t = malloc(sizeof(Tranzactie));
