@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory_leaks-Andra/cmake-build-debug/
+cmake_ninja_workdir = D$:/Projects/C++$ projects/Anul$ 1$ Sem$ 2/OOP/laborator5--memory_leaks-Andra/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target laborator5__memory_leaks_Andra
 
@@ -49,64 +49,64 @@ cmake_ninja_workdir = D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory
 
 build cmake_object_order_depends_target_laborator5__memory_leaks_Andra: phony || CMakeFiles/laborator5__memory_leaks_Andra.dir
 
-build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/customSort.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/customSort.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
+build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/customSort.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/Anul$ 1$ Sem$ 2/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/customSort.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
   DEP_FILE = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4\customSort.c.obj.d
   FLAGS = -g -std=gnu11
-  INCLUDES = -I"D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
+  INCLUDES = -I"D:/Projects/C++ projects/Anul 1 Sem 2/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
   OBJECT_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir
   OBJECT_FILE_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4
   TARGET_COMPILE_PDB = CMakeFiles\laborator5__memory_leaks_Andra.dir\
   TARGET_PDB = laborator5__memory_leaks_Andra.pdb
 
-build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/lista.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/lista.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
+build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/lista.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/Anul$ 1$ Sem$ 2/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/lista.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
   DEP_FILE = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4\lista.c.obj.d
   FLAGS = -g -std=gnu11
-  INCLUDES = -I"D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
+  INCLUDES = -I"D:/Projects/C++ projects/Anul 1 Sem 2/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
   OBJECT_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir
   OBJECT_FILE_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4
   TARGET_COMPILE_PDB = CMakeFiles\laborator5__memory_leaks_Andra.dir\
   TARGET_PDB = laborator5__memory_leaks_Andra.pdb
 
-build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/main.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/main.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
+build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/main.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/Anul$ 1$ Sem$ 2/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/main.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
   DEP_FILE = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4\main.c.obj.d
   FLAGS = -g -std=gnu11
-  INCLUDES = -I"D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
+  INCLUDES = -I"D:/Projects/C++ projects/Anul 1 Sem 2/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
   OBJECT_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir
   OBJECT_FILE_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4
   TARGET_COMPILE_PDB = CMakeFiles\laborator5__memory_leaks_Andra.dir\
   TARGET_PDB = laborator5__memory_leaks_Andra.pdb
 
-build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/service.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/service.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
+build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/service.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/Anul$ 1$ Sem$ 2/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/service.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
   DEP_FILE = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4\service.c.obj.d
   FLAGS = -g -std=gnu11
-  INCLUDES = -I"D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
+  INCLUDES = -I"D:/Projects/C++ projects/Anul 1 Sem 2/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
   OBJECT_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir
   OBJECT_FILE_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4
   TARGET_COMPILE_PDB = CMakeFiles\laborator5__memory_leaks_Andra.dir\
   TARGET_PDB = laborator5__memory_leaks_Andra.pdb
 
-build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/tranzactie.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/tranzactie.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
+build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/tranzactie.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/Anul$ 1$ Sem$ 2/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/tranzactie.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
   DEP_FILE = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4\tranzactie.c.obj.d
   FLAGS = -g -std=gnu11
-  INCLUDES = -I"D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
+  INCLUDES = -I"D:/Projects/C++ projects/Anul 1 Sem 2/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
   OBJECT_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir
   OBJECT_FILE_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4
   TARGET_COMPILE_PDB = CMakeFiles\laborator5__memory_leaks_Andra.dir\
   TARGET_PDB = laborator5__memory_leaks_Andra.pdb
 
-build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/ui.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/ui.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
+build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/ui.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/Anul$ 1$ Sem$ 2/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/ui.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
   DEP_FILE = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4\ui.c.obj.d
   FLAGS = -g -std=gnu11
-  INCLUDES = -I"D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
+  INCLUDES = -I"D:/Projects/C++ projects/Anul 1 Sem 2/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
   OBJECT_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir
   OBJECT_FILE_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4
   TARGET_COMPILE_PDB = CMakeFiles\laborator5__memory_leaks_Andra.dir\
   TARGET_PDB = laborator5__memory_leaks_Andra.pdb
 
-build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/utils.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/utils.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
+build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/utils.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/Anul$ 1$ Sem$ 2/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/utils.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
   DEP_FILE = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4\utils.c.obj.d
   FLAGS = -g -std=gnu11
-  INCLUDES = -I"D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
+  INCLUDES = -I"D:/Projects/C++ projects/Anul 1 Sem 2/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
   OBJECT_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir
   OBJECT_FILE_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4
   TARGET_COMPILE_PDB = CMakeFiles\laborator5__memory_leaks_Andra.dir\
@@ -136,7 +136,7 @@ build laborator5__memory_leaks_Andra.exe: C_EXECUTABLE_LINKER__laborator5__memor
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Projects\C++ projects\VS 2022\OOP\laborator5--memory_leaks-Andra\cmake-build-debug" && "D:\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "D:\Projects\C++ projects\Anul 1 Sem 2\OOP\laborator5--memory_leaks-Andra\cmake-build-debug" && "D:\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -147,7 +147,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Projects\C++ projects\VS 2022\OOP\laborator5--memory_leaks-Andra\cmake-build-debug" && "D:\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Projects\C++ projects\VS 2022\OOP\laborator5--memory_leaks-Andra" -B"D:\Projects\C++ projects\VS 2022\OOP\laborator5--memory_leaks-Andra\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "D:\Projects\C++ projects\Anul 1 Sem 2\OOP\laborator5--memory_leaks-Andra\cmake-build-debug" && "D:\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Projects\C++ projects\Anul 1 Sem 2\OOP\laborator5--memory_leaks-Andra" -B"D:\Projects\C++ projects\Anul 1 Sem 2\OOP\laborator5--memory_leaks-Andra\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -165,7 +165,7 @@ build laborator5__memory_leaks_Andra: phony laborator5__memory_leaks_Andra.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/cmake-build-debug
+# Folder: D:/Projects/C++ projects/Anul 1 Sem 2/OOP/laborator5--memory_leaks-Andra/cmake-build-debug
 
 build all: phony laborator5__memory_leaks_Andra.exe
 

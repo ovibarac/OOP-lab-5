@@ -56,6 +56,7 @@ void printMenu() {
 	printf("6. Sortare tranzactii dupa suma\n");
 	printf("7. Sortare tranzactii dupa zi\n");
 	printf("8. Undo\n");
+	printf("8. Sold\n");
 	printf("0. Iesire\n");
 }
 
@@ -219,6 +220,34 @@ void uiSortByZiua(TranzactiiStore* store) {
 
 }
 
+void uiSold(TranzactiiStore* store){
+    int zi;
+    printf("Itroduceti ziua: ");
+    scanf_s("%d", &zi);
+
+    if (zi !=0)
+    {
+        MyList* filteredList = filterTranzactiiZi(store, zi);
+        printf("Intrare: \n");
+        for (int i = 0; i < size(filteredList); i++) {
+            Tranzactie* t = get(filteredList, i);
+            if(t->ziua == zi && strcmp(t->tip, "intrare") >= 0)
+                printf("Ziua: %d | Suma: %f | Tipul: %s | Descriere: %s\n", t->ziua, t->suma, t->tip, t->descriere);
+        }
+
+        printf("Iesire: \n");
+        for (int i = 0; i < size(filteredList); i++) {
+            Tranzactie* t = get(filteredList, i);
+            if(t->ziua == zi && strcmp(t->tip, "iesire") == 0)
+                printf("Ziua: %d | Suma: %f | Tipul: %s | Descriere: %s\n", t->ziua, t->suma, t->tip, t->descriere);
+        }
+
+        destroyList(filteredList);
+    }
+    if (zi  < 1 || zi > 31)
+        printf("date invalide");
+}
+
 void run() {
 	TranzactiiStore List = createTranzactiiStore();
 	int running = 1;
@@ -256,7 +285,9 @@ void run() {
                 printf("No more undo!!!\n");
             }
             break;
-
+        case 9:
+            uiSold(&List);
+            break;
 		case 0:
 			running = 0;
 			destroyTranzactiiStore(&List);

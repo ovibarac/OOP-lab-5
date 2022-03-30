@@ -11,5 +11,4 @@ int main()
 {
 	testAll();
 	run();
-	_CrtDumpMemoryLeaks();
 }

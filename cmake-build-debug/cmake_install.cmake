@@ -1,4 +1,4 @@
-# Install script for directory: D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra
+# Install script for directory: D:/Projects/C++ projects/Anul 1 Sem 2/OOP/laborator5--memory_leaks-Andra
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Projects/C++ projects/Anul 1 Sem 2/OOP/laborator5--memory_leaks-Andra/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

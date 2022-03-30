@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "D:\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Projects\C++ projects\VS 2022\OOP\laborator5--memory_leaks-Andra" -B"D:\Projects\C++ projects\VS 2022\OOP\laborator5--memory_leaks-Andra\cmake-build-debug"
+  command = "D:\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Projects\C++ projects\Anul 1 Sem 2\OOP\laborator5--memory_leaks-Andra" -B"D:\Projects\C++ projects\Anul 1 Sem 2\OOP\laborator5--memory_leaks-Andra\cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 
