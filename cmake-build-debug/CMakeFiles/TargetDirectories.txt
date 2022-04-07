@@ -1,3 +1,3 @@
-D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/cmake-build-debug/CMakeFiles/laborator5__memory_leaks_Andra.dir
-D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ovi/work/oop/CLionProjects/lab5-git/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ovi/work/oop/CLionProjects/lab5-git/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ovi/work/oop/CLionProjects/lab5-git/cmake-build-debug/CMakeFiles/lab5_git.dir

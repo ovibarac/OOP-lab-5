@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: laborator5__memory_leaks_Andra
+# Project: lab5_git
 # Configurations: Debug
 # =============================================================================
 
@@ -39,125 +39,121 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory_leaks-Andra/cmake-build-debug/
-# =============================================================================
-# Object build statements for EXECUTABLE target laborator5__memory_leaks_Andra
-
-
-#############################################
-# Order-only phony target for laborator5__memory_leaks_Andra
-
-build cmake_object_order_depends_target_laborator5__memory_leaks_Andra: phony || CMakeFiles/laborator5__memory_leaks_Andra.dir
-
-build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/customSort.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/customSort.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
-  DEP_FILE = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4\customSort.c.obj.d
-  FLAGS = -g -std=gnu11
-  INCLUDES = -I"D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
-  OBJECT_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir
-  OBJECT_FILE_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4
-  TARGET_COMPILE_PDB = CMakeFiles\laborator5__memory_leaks_Andra.dir\
-  TARGET_PDB = laborator5__memory_leaks_Andra.pdb
-
-build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/lista.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/lista.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
-  DEP_FILE = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4\lista.c.obj.d
-  FLAGS = -g -std=gnu11
-  INCLUDES = -I"D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
-  OBJECT_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir
-  OBJECT_FILE_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4
-  TARGET_COMPILE_PDB = CMakeFiles\laborator5__memory_leaks_Andra.dir\
-  TARGET_PDB = laborator5__memory_leaks_Andra.pdb
-
-build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/main.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/main.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
-  DEP_FILE = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4\main.c.obj.d
-  FLAGS = -g -std=gnu11
-  INCLUDES = -I"D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
-  OBJECT_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir
-  OBJECT_FILE_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4
-  TARGET_COMPILE_PDB = CMakeFiles\laborator5__memory_leaks_Andra.dir\
-  TARGET_PDB = laborator5__memory_leaks_Andra.pdb
-
-build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/service.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/service.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
-  DEP_FILE = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4\service.c.obj.d
-  FLAGS = -g -std=gnu11
-  INCLUDES = -I"D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
-  OBJECT_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir
-  OBJECT_FILE_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4
-  TARGET_COMPILE_PDB = CMakeFiles\laborator5__memory_leaks_Andra.dir\
-  TARGET_PDB = laborator5__memory_leaks_Andra.pdb
-
-build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/tranzactie.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/tranzactie.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
-  DEP_FILE = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4\tranzactie.c.obj.d
-  FLAGS = -g -std=gnu11
-  INCLUDES = -I"D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
-  OBJECT_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir
-  OBJECT_FILE_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4
-  TARGET_COMPILE_PDB = CMakeFiles\laborator5__memory_leaks_Andra.dir\
-  TARGET_PDB = laborator5__memory_leaks_Andra.pdb
-
-build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/ui.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/ui.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
-  DEP_FILE = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4\ui.c.obj.d
-  FLAGS = -g -std=gnu11
-  INCLUDES = -I"D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
-  OBJECT_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir
-  OBJECT_FILE_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4
-  TARGET_COMPILE_PDB = CMakeFiles\laborator5__memory_leaks_Andra.dir\
-  TARGET_PDB = laborator5__memory_leaks_Andra.pdb
-
-build CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/utils.c.obj: C_COMPILER__laborator5__memory_leaks_Andra_Debug D$:/Projects/C++$ projects/VS$ 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4/utils.c || cmake_object_order_depends_target_laborator5__memory_leaks_Andra
-  DEP_FILE = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4\utils.c.obj.d
-  FLAGS = -g -std=gnu11
-  INCLUDES = -I"D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/laborator2-4/laborator2-4/laborator2-4"
-  OBJECT_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir
-  OBJECT_FILE_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir\laborator2-4\laborator2-4\laborator2-4
-  TARGET_COMPILE_PDB = CMakeFiles\laborator5__memory_leaks_Andra.dir\
-  TARGET_PDB = laborator5__memory_leaks_Andra.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target laborator5__memory_leaks_Andra
-
-
-#############################################
-# Link the executable laborator5__memory_leaks_Andra.exe
-
-build laborator5__memory_leaks_Andra.exe: C_EXECUTABLE_LINKER__laborator5__memory_leaks_Andra_Debug CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/customSort.c.obj CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/lista.c.obj CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/main.c.obj CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/service.c.obj CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/tranzactie.c.obj CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/ui.c.obj CMakeFiles/laborator5__memory_leaks_Andra.dir/laborator2-4/laborator2-4/laborator2-4/utils.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\laborator5__memory_leaks_Andra.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\laborator5__memory_leaks_Andra.dir\
-  TARGET_FILE = laborator5__memory_leaks_Andra.exe
-  TARGET_IMPLIB = liblaborator5__memory_leaks_Andra.dll.a
-  TARGET_PDB = laborator5__memory_leaks_Andra.pdb
-
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Projects\C++ projects\VS 2022\OOP\laborator5--memory_leaks-Andra\cmake-build-debug" && "D:\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
+cmake_ninja_workdir = /home/ovi/work/oop/CLionProjects/lab5-git/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Projects\C++ projects\VS 2022\OOP\laborator5--memory_leaks-Andra\cmake-build-debug" && "D:\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Projects\C++ projects\VS 2022\OOP\laborator5--memory_leaks-Andra" -B"D:\Projects\C++ projects\VS 2022\OOP\laborator5--memory_leaks-Andra\cmake-build-debug""
+  COMMAND = cd /home/ovi/work/oop/CLionProjects/lab5-git/cmake-build-debug && /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/ovi/work/oop/CLionProjects/lab5-git -B/home/ovi/work/oop/CLionProjects/lab5-git/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/ovi/work/oop/CLionProjects/lab5-git/cmake-build-debug && /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab5_git
+
+
+#############################################
+# Order-only phony target for lab5_git
+
+build cmake_object_order_depends_target_lab5_git: phony || CMakeFiles/lab5_git.dir
+
+build CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/customSort.c.o: C_COMPILER__lab5_git_Debug /home/ovi/work/oop/CLionProjects/lab5-git/laborator2-4/laborator2-4/laborator2-4/customSort.c || cmake_object_order_depends_target_lab5_git
+  DEP_FILE = CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/customSort.c.o.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -I/home/ovi/work/oop/CLionProjects/lab5-git/laborator2-4/laborator2-4/laborator2-4
+  OBJECT_DIR = CMakeFiles/lab5_git.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4
+  TARGET_COMPILE_PDB = CMakeFiles/lab5_git.dir/
+  TARGET_PDB = lab5_git.pdb
+
+build CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/lista.c.o: C_COMPILER__lab5_git_Debug /home/ovi/work/oop/CLionProjects/lab5-git/laborator2-4/laborator2-4/laborator2-4/lista.c || cmake_object_order_depends_target_lab5_git
+  DEP_FILE = CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/lista.c.o.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -I/home/ovi/work/oop/CLionProjects/lab5-git/laborator2-4/laborator2-4/laborator2-4
+  OBJECT_DIR = CMakeFiles/lab5_git.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4
+  TARGET_COMPILE_PDB = CMakeFiles/lab5_git.dir/
+  TARGET_PDB = lab5_git.pdb
+
+build CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/main.c.o: C_COMPILER__lab5_git_Debug /home/ovi/work/oop/CLionProjects/lab5-git/laborator2-4/laborator2-4/laborator2-4/main.c || cmake_object_order_depends_target_lab5_git
+  DEP_FILE = CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/main.c.o.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -I/home/ovi/work/oop/CLionProjects/lab5-git/laborator2-4/laborator2-4/laborator2-4
+  OBJECT_DIR = CMakeFiles/lab5_git.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4
+  TARGET_COMPILE_PDB = CMakeFiles/lab5_git.dir/
+  TARGET_PDB = lab5_git.pdb
+
+build CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/service.c.o: C_COMPILER__lab5_git_Debug /home/ovi/work/oop/CLionProjects/lab5-git/laborator2-4/laborator2-4/laborator2-4/service.c || cmake_object_order_depends_target_lab5_git
+  DEP_FILE = CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/service.c.o.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -I/home/ovi/work/oop/CLionProjects/lab5-git/laborator2-4/laborator2-4/laborator2-4
+  OBJECT_DIR = CMakeFiles/lab5_git.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4
+  TARGET_COMPILE_PDB = CMakeFiles/lab5_git.dir/
+  TARGET_PDB = lab5_git.pdb
+
+build CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/tranzactie.c.o: C_COMPILER__lab5_git_Debug /home/ovi/work/oop/CLionProjects/lab5-git/laborator2-4/laborator2-4/laborator2-4/tranzactie.c || cmake_object_order_depends_target_lab5_git
+  DEP_FILE = CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/tranzactie.c.o.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -I/home/ovi/work/oop/CLionProjects/lab5-git/laborator2-4/laborator2-4/laborator2-4
+  OBJECT_DIR = CMakeFiles/lab5_git.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4
+  TARGET_COMPILE_PDB = CMakeFiles/lab5_git.dir/
+  TARGET_PDB = lab5_git.pdb
+
+build CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/ui.c.o: C_COMPILER__lab5_git_Debug /home/ovi/work/oop/CLionProjects/lab5-git/laborator2-4/laborator2-4/laborator2-4/ui.c || cmake_object_order_depends_target_lab5_git
+  DEP_FILE = CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/ui.c.o.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -I/home/ovi/work/oop/CLionProjects/lab5-git/laborator2-4/laborator2-4/laborator2-4
+  OBJECT_DIR = CMakeFiles/lab5_git.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4
+  TARGET_COMPILE_PDB = CMakeFiles/lab5_git.dir/
+  TARGET_PDB = lab5_git.pdb
+
+build CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/utils.c.o: C_COMPILER__lab5_git_Debug /home/ovi/work/oop/CLionProjects/lab5-git/laborator2-4/laborator2-4/laborator2-4/utils.c || cmake_object_order_depends_target_lab5_git
+  DEP_FILE = CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/utils.c.o.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -I/home/ovi/work/oop/CLionProjects/lab5-git/laborator2-4/laborator2-4/laborator2-4
+  OBJECT_DIR = CMakeFiles/lab5_git.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4
+  TARGET_COMPILE_PDB = CMakeFiles/lab5_git.dir/
+  TARGET_PDB = lab5_git.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab5_git
+
+
+#############################################
+# Link the executable lab5_git
+
+build lab5_git: C_EXECUTABLE_LINKER__lab5_git_Debug CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/customSort.c.o CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/lista.c.o CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/main.c.o CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/service.c.o CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/tranzactie.c.o CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/ui.c.o CMakeFiles/lab5_git.dir/laborator2-4/laborator2-4/laborator2-4/utils.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/lab5_git.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/lab5_git.dir/
+  TARGET_FILE = lab5_git
+  TARGET_PDB = lab5_git.pdb
+
 # =============================================================================
 # Target aliases.
-
-build laborator5__memory_leaks_Andra: phony laborator5__memory_leaks_Andra.exe
 
 # =============================================================================
 # Folder targets.
@@ -165,9 +161,9 @@ build laborator5__memory_leaks_Andra: phony laborator5__memory_leaks_Andra.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Projects/C++ projects/VS 2022/OOP/laborator5--memory_leaks-Andra/cmake-build-debug
+# Folder: /home/ovi/work/oop/CLionProjects/lab5-git/cmake-build-debug
 
-build all: phony laborator5__memory_leaks_Andra.exe
+build all: phony lab5_git
 
 # =============================================================================
 # Built-in targets
@@ -176,14 +172,14 @@ build all: phony laborator5__memory_leaks_Andra.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCCompilerABI.c D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineRCCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCCompiler.cmake.in D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystem.cmake.in D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestRCCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-FindBinUtils.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ROCMClang-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCCompilerABI.c /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCInformation.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystem.cmake.in /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-C.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-FindBinUtils.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/ROCMClang-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-C.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCCompilerABI.c D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineRCCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCCompiler.cmake.in D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystem.cmake.in D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestRCCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-FindBinUtils.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ROCMClang-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake D$:/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake: phony
+build ../CMakeLists.txt /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCCompilerABI.c /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCInformation.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystem.cmake.in /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-C.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-FindBinUtils.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/ROCMClang-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-C.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux.cmake /home/ovi/Programs/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
 
 
 #############################################
